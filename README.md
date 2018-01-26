@@ -15,7 +15,7 @@ Initialize Class Naive Coin, set host and port with __construct
 
 ##### public headers
 
-    No description
+    array header
 
 
 
@@ -25,7 +25,7 @@ Initialize Class Naive Coin, set host and port with __construct
 
 ##### public __construct
 
-    No description
+    constructor
 
     @param string $host_api
 
