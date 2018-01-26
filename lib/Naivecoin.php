@@ -139,7 +139,7 @@ class Naivecoin {
 	* 
 	* @return type
 	*/
- public function getAllBlock() {
+ public function getAllBlocks() {
 	$response = $this->_call('GET', 'blockchain/blocks', null, null);
 	return $response;
  }
@@ -187,7 +187,7 @@ class Naivecoin {
 	* 
 	* @return type
 	*/
- public function getAllTransaction() {
+ public function getAllTransactions() {
 	$response = $this->_call('GET', 'blockchain/transactions', null, null);
 	return $response;
  }
@@ -237,7 +237,7 @@ class Naivecoin {
 	* @param type $walletId
 	* @return type
 	*/
- public function getAllAdresseOfWallet(string $walletId) {
+ public function getAllAdressesOfWallet(string $walletId) {
 
 	$response = $this->_call('GET', 'operator/wallets/' . $walletId . '/addresses', null, null);
 	return $response;

@@ -41,7 +41,7 @@ Initialize Class Naive Coin, set host and port with __construct
 
     @return $this
 
-##### public getAllBlock
+##### public getAllBlocks
 
     Get all blocks
 
@@ -77,7 +77,7 @@ Initialize Class Naive Coin, set host and port with __construct
 
     @return type
 
-##### public getAllTransaction
+##### public getAllTransactions
 
     Get all transactions
 
@@ -111,7 +111,7 @@ Initialize Class Naive Coin, set host and port with __construct
 
     @return type
 
-##### public getAllAdresseOfWallet
+##### public getAllAdressesOfWallet
 
     Get all addresses of a wallet
 
