@@ -1,7 +1,6 @@
 # PHP SDK for naivecoin
 This is the naivecoin PHP SDK. This SDK contains methods for easily interacting with the Naivecoin API
-```mermaid
-graph LR 
+```
 A[LOCAL] -- Call API --> B((SDK))
 B --> C[NODE]
 C --> A
@@ -11,8 +10,7 @@ The SDK requires PHP 7.0+
 
 # Use
 
-Initalize Class Naivecoin
-Set host and post with __construct
+Initialize Class Naive Coin, set host and port with __construct
 
 
 ##### public headers
